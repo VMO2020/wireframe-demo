@@ -13,7 +13,7 @@ main {
 }
 
 header {
-	border: 1px solid aquamarine;
+	border: 1px solid lightcoral;
 }
 
 header,
@@ -26,7 +26,7 @@ header,
 
 .nav > li > a {
 	margin: 2em;
-	color: aquamarine;
+	color: lightcoral;
 	text-decoration: none;
 	font-size: 1.5em;
 }
@@ -40,12 +40,20 @@ header {
 	flex-direction: column;
 }
 
+img {
+	max-width: 30vw;
+}
+
+#main-img {
+	min-width: 100%;
+}
+
 li {
 	margin: 1 em;
 }
 
 #title {
-	color: aquamarine;
+	color: lightcoral;
 }
 
 #top {
@@ -64,6 +72,7 @@ article {
 
 #contact {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	min-height: 300px;
 	background-color: lightgrey;
@@ -71,8 +80,12 @@ article {
 
 #contact > h3 {
 	font-size: 3em;
-	margin: auto;
+	margin: 2em auto;
 	color: grey;
+}
+
+#contact > p {
+	margin: 2em auto;
 }
 
 #gotop {
@@ -84,9 +97,9 @@ article {
 #gotop > a {
 	margin: 1em auto;
 	text-decoration: none;
-	color: aquamarine;
+	color: lightcoral;
 	padding: 0.5em 3em;
-	border: 2px solid aquamarine;
+	border: 2px solid lightcoral;
 	border-radius: 0.3em;
 }
 
