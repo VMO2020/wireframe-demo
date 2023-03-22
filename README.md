@@ -18,4 +18,4 @@ git remote add origin https://github.com/remote1/example
 
 ### Wireframe
 
-¡[wireframe](images/wireframe.jpeg)
+![wireframe](images/wireframe.jpeg)
