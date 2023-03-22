@@ -1,7 +1,4 @@
-html {
-	text-align: left;
-	font-family: 'Roboto', sans-serif;
-}
+/* CSS demo */
 
 * {
 	margin: 0;
@@ -9,12 +6,24 @@ html {
 	box-sizing: border-box;
 }
 
-main {
-	padding: 2em 1em;
+body {
+	font-family: 'Roboto', sans-serif;
+	max-width: 1200px;
+	margin: auto;
 }
 
 header {
+	padding: 1.2em 1em;
 	border: 1px solid lightcoral;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+#title {
+	color: hsl(0, 79%, 72%);
 }
 
 header,
@@ -25,45 +34,55 @@ header,
 	list-style-type: none;
 }
 
-.nav > li > a {
+.nav li a {
 	margin: 2em;
 	color: #f08080;
 	text-decoration: none;
 	font-size: 1.5em;
+	cursor: pointer;
 }
 
-header {
-	padding: 0 1em;
+.nav li a:hover {
+	color: #d32323;
+	font-size: 1.6em;
+}
+
+main {
+	width: 100%;
+	margin: 1em auto;
+	padding: 2em 1em;
 }
 
 #image {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-}
-
-img {
-	max-width: 30vw;
 }
 
 #main-img {
 	min-width: 100%;
 }
 
-li {
-	margin: 1 em;
+#cookies {
+	width: 100;
+	display: flex;
 }
 
-#title {
-	color: hsl(0, 79%, 72%);
+article {
+	max-width: 30%;
+}
+
+article img {
+	width: 100%;
+}
+
+li {
+	margin: 1 em;
 }
 
 #top {
 	display: block;
 	width: 100%;
-}
-
-#cookies {
-	display: flex;
 }
 
 article {
@@ -111,6 +130,6 @@ footer {
 	background-color: lightgrey;
 }
 
-footer > p {
+footer p {
 	margin: auto;
 }
