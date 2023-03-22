@@ -27,7 +27,7 @@ header,
 
 .nav > li > a {
 	margin: 2em;
-	color: lightcoral;
+	color: #f08080;
 	text-decoration: none;
 	font-size: 1.5em;
 }
@@ -54,7 +54,7 @@ li {
 }
 
 #title {
-	color: lightcoral;
+	color: hsl(0, 79%, 72%);
 }
 
 #top {
@@ -76,7 +76,7 @@ article {
 	flex-direction: column;
 	width: 100%;
 	min-height: 300px;
-	background-color: lightgrey;
+	background-color: rgb(211, 211, 211);
 }
 
 #contact > h3 {
@@ -98,9 +98,9 @@ article {
 #gotop > a {
 	margin: 1em auto;
 	text-decoration: none;
-	color: lightcoral;
+	color: #f08080;
 	padding: 0.5em 3em;
-	border: 2px solid lightcoral;
+	border: 2px solid rgb(240, 128, 128);
 	border-radius: 0.3em;
 }
 
